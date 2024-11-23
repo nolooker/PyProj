@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import sys
 from pytrends.request import TrendReq
 import time
@@ -10,7 +9,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 pytrends = TrendReq(hl='ko', tz=360)
 
 # 키워드 리스트
-keywords = ['파이썬', 'RPA', '머신 러닝']
+keywords = ['파이썬', '머신 러닝']
 
 for keyword in keywords:
     try:
